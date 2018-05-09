@@ -6,5 +6,5 @@ jobs:
                 steps:
                         - checkout
                         - run: echo "hello world"
-                        - run: echo $TEST_SECRET
+                        - run: echo "your secret is = $TEST_SECRET"
 
